@@ -1,0 +1,10 @@
+<!-- Agular has template driven and reactive Forms -->
+<!-- this are the reactive forms -->
+<div class="Admin-Login">
+    <h1>Login</h1>
+    <form [formGroup]="Login" >
+        <input type="text" formControlName="AdminName"/>
+        <input type="text" formControlName="Password"/>
+        <button (click)="login()">Login</button>
+    </form>
+</div>

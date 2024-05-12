@@ -1,0 +1,12 @@
+.Admin-Login{
+text-align: center;    
+}
+form{
+    justify-content: center;
+    display: grid;
+}
+input , button{
+    height: 30px;
+    width: 280px;
+    margin: 10px;
+}

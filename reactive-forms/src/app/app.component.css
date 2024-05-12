@@ -1,0 +1,16 @@
+nav .B{
+    justify-content: space-between;
+    display: flex;
+    cursor: pointer;
+}
+li {
+    list-style-type: none;
+    margin-left: 20px;
+
+}
+nav{
+    background-color: aquamarine;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
